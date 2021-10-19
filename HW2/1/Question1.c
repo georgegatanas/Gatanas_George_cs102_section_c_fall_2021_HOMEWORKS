@@ -14,7 +14,7 @@ int main()
 
 	scanf("%d", &w);
 
-	printf("The perimeter of the rectangle is: %d \n", (w*h));
+	printf("The perimeter of the rectangle is: %d \n", (w+w+h+h));
 
 	return 0;
 }
